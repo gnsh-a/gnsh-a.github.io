@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+first_name: Ganesh
+middle_name:
+last_name: Arivoli
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -192,13 +192,30 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  #New_excludes
+  - _posts/
+  - _pages/blog.md
+  - _includes/latest_posts.liquid
+  - _includes/related_posts.liquid
+  - _layouts/archive.liquid
+  - _plugins/external-posts.rb
+  # - _bibliography/
+  - _pages/publications.md
+  - _pages/teaching.md
+  # - _layouts/bib.liquid
+  # - _includes/bib_search.liquid
+  # - _includes/citation.liquid
+  # - _includes/selected_papers.liquid
+  # - _plugins/google-scholar-citations.rb
+  # - _plugins/hide-custom-bibtex.rb
+  # - _plugins/inspirehep-citations.rb
 keep_files:
   - CNAME
   - .nojekyll
 
 # Plug-ins
 plugins:
-  - jekyll-archives-v2
+#  - jekyll-archives-v2
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
@@ -246,18 +263,18 @@ terser:
 # Jekyll Archives
 # -----------------------------------------------------------------------------
 
-jekyll-archives:
-  posts:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-    permalinks:
-      year: "/blog/:year/"
-      tags: "/blog/:type/:name/"
-      categories: "/blog/:type/:name/"
-  books:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+# jekyll-archives:
+#   posts:
+#     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+#     permalinks:
+#       year: "/blog/:year/"
+#       tags: "/blog/:type/:name/"
+#       categories: "/blog/:type/:name/"
+#   books:
+#     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+# display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
+# display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
