@@ -152,6 +152,9 @@ collections:
     output: true
   projects:
     output: true
+  # # Remove or comment out the people collection if it exists
+  # people:
+  #   output: false
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -202,6 +205,10 @@ exclude:
   # - _bibliography/
   - _pages/publications.md
   - _pages/teaching.md
+  # Add the people page to the exclude list
+  - _pages/profiles.md
+  # Add the repositories page to the exclude list
+  - _pages/repositories.md
   # - _layouts/bib.liquid
   # - _includes/bib_search.liquid
   # - _includes/citation.liquid
@@ -209,6 +216,10 @@ exclude:
   # - _plugins/google-scholar-citations.rb
   # - _plugins/hide-custom-bibtex.rb
   # - _plugins/inspirehep-citations.rb
+  # Add these lines to exclude projects 7, 8, and 9
+  - _projects/7_project.md
+  - _projects/8_project.md
+  - _projects/9_project.md
 keep_files:
   - CNAME
   - .nojekyll

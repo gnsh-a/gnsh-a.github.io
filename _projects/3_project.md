@@ -1,12 +1,14 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: project 3
+description: yet another project
+img: assets/img/14.jpg
 importance: 3
 category: work
+related_publications: false
 ---
+
+# Project Content
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

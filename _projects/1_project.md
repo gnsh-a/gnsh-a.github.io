@@ -1,12 +1,14 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Triumph Motorcycles
+description: Speed 400 and Scrambler 400
+img: assets/img/triumph.jpg
 importance: 1
 category: work
 related_publications: false
 ---
+
+Details about the Triumph Motorcycles project, focusing on the Speed 400 and Scrambler 400 models.
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

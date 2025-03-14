@@ -1,10 +1,12 @@
 ---
 layout: page
 title: project 8
-description: an other project with a background image and giscus comments
-img: assets/img/9.jpg
-importance: 2
+description: fun project
+img: assets/img/19.jpg
+importance: 8
+# Change or remove the category
 category: work
+related_publications: false
 giscus_comments: true
 ---
 
@@ -79,3 +81,5 @@ Here's the code for the last row of images above:
 ```
 
 {% endraw %}
+
+# Project Content

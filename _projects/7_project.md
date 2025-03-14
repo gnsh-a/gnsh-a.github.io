@@ -1,12 +1,15 @@
 ---
 layout: page
 title: project 7
-description: with background image
-img: assets/img/4.jpg
-importance: 1
+description: more fun
+img: assets/img/18.jpg
+importance: 7
+# Change or remove the category
 category: work
-related_publications: true
+related_publications: false
 ---
+
+# Project Content
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

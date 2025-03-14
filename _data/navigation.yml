@@ -1,0 +1,12 @@
+# Navigation links
+main:
+  - title: "About"
+    url: /
+  - title: "Projects"
+    url: /projects/
+  # Remove or comment out the People entry
+  # - title: "People"
+  #   url: /people/
+  - title: "Books"
+    url: /books/
+  # Add any other navigation items you want to keep 
