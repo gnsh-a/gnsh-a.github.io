@@ -1,84 +1,59 @@
 ---
 layout: page
-title: project 6
-description: another one
-img: assets/img/17.jpg
-importance: 6
-# Change or remove the category
-category: work
+title: Parallel RRT for Autonomous Robots
+description: Accelerating path planning using OpenMP and CUDA
+img: assets/img/rrt_1.png
+importance: 2
+category: simulation
 related_publications: false
 ---
 
-# Project Content
+As part of **ECE 759: High Performance Computing (Spring 2025)** at UW–Madison, I am working on a team project to accelerate motion planning algorithms — specifically **RRT (Rapidly-exploring Random Tree)** and **PRM (Probabilistic Roadmap)** — using **parallel computing techniques** on both CPU (OpenMP) and GPU (CUDA).
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The goal is to improve the scalability and runtime performance of these algorithms for use in autonomous systems like robots and vehicles navigating complex environments.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**GitHub Repository**: [https://github.com/xuann6/ece759_final_proj.git](https://github.com/xuann6/ece759_final_proj.git)
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+### Motivation
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+RRT and PRM are widely used in robotics for path planning, but they face challenges in:
+- **Nearest node search** latency as the tree grows
+- **Expensive collision detection** in cluttered spaces
+
+We aim to overcome these limitations through parallelism, enabling faster planning in large, obstacle-dense environments.
+
+---
+
+### Current Focus
+
+- **Baseline Implementation**: We are implementing sequential versions of RRT and PRM in C++ as performance baselines.
+- **Parallel CPU Version**: Using **OpenMP**, we parallelize node sampling and nearest-neighbor computation.
+- **GPU Acceleration**: We are designing **CUDA kernels** for collision detection and environment sampling.
+- **Visualization & Evaluation**: A Python-based visualization frontend is used to interpret results and compare algorithm behavior in various test environments.
+
+---
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/rrt_1.png" title="CPU-based RRT Exploration (in progress)" class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
+
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+  RRT exploration tree being generated using sequential CPU baseline.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+---
 
-{% raw %}
+### Tools & Topics Involved
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+- `CUDA`, `OpenMP`, `C++`, and `Python`
+- Multi-threaded node sampling and tree extension
+- GPU memory management and kernel optimization
+- Performance benchmarking techniques
 
-{% endraw %}
+---
+
+This project gives me hands-on experience applying **parallel computing principles** to a real-world robotics problem, while deepening my understanding of **algorithmic design, GPU architecture**, and **performance engineering**.

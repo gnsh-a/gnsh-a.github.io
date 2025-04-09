@@ -1,84 +1,43 @@
 ---
 layout: page
-title: project 4
-description: more projects
-img: assets/img/15.jpg
-importance: 4
-# Change or remove the category
+title: SAE BAJA Team
+description: Chassis Design, Powertrain, and Data Acquisition – BAJA SAE India & Enduro Student India
+img: assets/img/psi_3.jpg
+importance: 3
 category: work
 related_publications: false
 ---
 
-# Project Content
+As a core member of **[PSI Racing Team](https://psi.nitt.edu/)**—the official off-road racing and vehicle design team of NIT Trichy—I contributed to the full design and fabrication lifecycle of an All-Terrain Vehicle (ATV) built for **BAJA SAE India** and **Enduro Student India** competitions.
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Our team consistently ranked in the **top 5 nationally** among 100+ participating teams during 2020 and 2021.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+### My key contributions included:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+- **Chassis Fabrication**: Designed and helped fabricate a lightweight tubular steel frame with high torsional rigidity, complying with SAE safety standards.
+- **Powertrain Modeling & Tuning**: Developed a dynamic model of the CVT using MATLAB, which improved drivetrain tuning efficiency by 10%.
+- **Data Acquisition & Telemetry**: Led integration of sensor systems and real-time telemetry for in-depth performance analysis and dynamic tuning.
+- **Track Testing & Calibration**: Iterated on suspension geometry and drivetrain settings based on sensor feedback and driver input during rigorous on-track testing.
+- **Team Achievements**: 
+  - Top 5 in BAJA SAE India (2020, 2021)
+  - Podium finishes in Enduro Student India
+  - Recognized for innovation in drivetrain control and durability testing
+
+---
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/psi_2.jpg" title="During the competition" class="img-fluid rounded z-depth-1" %}
   </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/psi_3.jpg" title="Suspension Testing" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/psi_1.jpg" title="Acceleration Test" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
+<div class="caption">
+  Left: During the competition. Center: Suspension Testing setup. Right: Acceleration Test.
+</div>
 
-{% endraw %}
+This experience helped me build a strong foundation in mechanical design, performance optimization, teamwork, and simulation-driven engineering—all of which continue to shape my work in the field of vehicle dynamics and mobility systems.

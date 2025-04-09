@@ -1,85 +1,47 @@
 ---
 layout: page
-title: project 8
-description: fun project
-img: assets/img/19.jpg
-importance: 8
-# Change or remove the category
-category: work
+title: Robotic Manipulator Simulation
+description: Modeling and control of a serial robotic arm
+img: assets/img/441_1.png
+importance: 1
+category: simulation
 related_publications: false
-giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+As part of **ME/ECE 441: Kinematics, Dynamics, and Control of Robotic Manipulators** at UW–Madison, I am developing a simulation stack for a **serial robotic manipulator**. This includes modeling, analysis, and control of an n-link arm using both analytical methods and numerical simulation.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The project is guided by topics in robotic motion and control, including forward and inverse kinematics, Jacobians, singularities, Lagrangian dynamics, and trajectory tracking.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+### What I’m Building
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+- **Forward & Inverse Kinematics**: Implemented using homogeneous transformations and the Denavit-Hartenberg (DH) convention.
+- **Jacobian & Differential Kinematics**: Derived analytical Jacobians to compute velocity mappings and evaluate kinematic singularities.
+- **Dynamics via Lagrangian Formulation**: Modeled joint torques, inertia matrices, and Coriolis/gravity forces for n-link robots.
+- **Numerical Integration**: Solved the equations of motion using custom MATLAB scripts to simulate multi-link dynamics.
+---
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/441_1.png" title="Manipulator Kinematics Simulation" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/robot_arm_control.jpg" title="Operational Space Control Snapshot" class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
+
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+  Left: Kinematic structure of the manipulator including DH-based transformation chain. Right: WIP.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+---
 
-{% raw %}
+### Tools Used
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+- **MATLAB**: Symbolic and numeric modeling, simulation, and animation
+- **Python**: For additional plotting and visualization
 
-{% endraw %}
+---
 
-# Project Content
+This project provides practical reinforcement of theoretical concepts in **serial chain manipulator kinematics, dynamics, and control**, and gives me a deeper understanding of robotic motion planning in both joint and task space.

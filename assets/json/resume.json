@@ -1,187 +1,117 @@
 {
   "basics": {
     "name": "Ganesh Arivoli",
-    "label": "Research Assistant",
-    "image": "",
     "email": "arivoli@wisc.edu",
-    // "phone": "(912) 123-4567",
-    "url": "https://gnsh-a.github.io/",
-    "summary": "TBD",
-    "location": {
-      "city": "Madison",
-      "countryCode": "US",
-      "region": "Wisconsin"
-    },
+    // "phone": "+1 (608) 720 8487",
+    "location": "Madison, WI (willing to relocate)",
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "ganesh12a",
+        "url": "https://linkedin.com/in/ganesh12a/"
       }
     ]
   },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "University of Wisconsin-Madison",
+      "degree": "Master of Science",
+      "field": "Mechanical Engineering",
+      "startDate": "Aug 2024",
+      "endDate": "May 2026",
+      "gpa": "4.0/4.0"
+    },
+    {
+      "institution": "National Institute of Technology, Tiruchirappalli",
+      "degree": "Bachelor of Technology",
+      "field": "Mechanical Engineering",
+      "startDate": "Jul 2017",
+      "endDate": "May 2021"
     }
   ],
-  "awards": [
+  "courses": [
+    "Mechanics of Machines",
+    "Mechatronics",
+    "Vehicle Dynamics",
+    "Design of Machine Elements",
+    "High Performance Computing"
+  ],
+  "work": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "name": "Simulation-Based Engineering Lab, UW-Madison",
+      "position": "Graduate Research Assistant",
+      "startDate": "Aug 2024",
+      "endDate": "Present",
+      "summary": "High-fidelity simulations for machinery and rover design.",
+      "highlights": [
+        "Developed dynamic models of excavation machinery using Project Chrono.",
+        "Built MBD-DEM co-simulation pipeline using a dual-GPU DEM engine.",
+        "Contributed to lunar rover modeling with Intuitive Machines using Chrono::Vehicle and ANCF tire models."
+      ]
+    },
+    {
+      "name": "Bajaj Auto, India",
+      "position": "Vehicle Dynamics Engineer (R&D)",
+      "startDate": "Sep 2021",
+      "endDate": "Dec 2023",
+      "summary": "End-to-end development of suspension systems for motorcycles.",
+      "highlights": [
+        "Led development of suspension systems for Bajaj Auto-Triumph motorcycles.",
+        "Improved ride and handling by 15% using simulations and testing.",
+        "Used CAE tools for structural and dynamic optimization of components."
+      ]
+    },
+    {
+      "name": "TVS Motor Company, India",
+      "position": "Vehicle Dynamics Engineer (R&D)",
+      "startDate": "Feb 2024",
+      "endDate": "Aug 2024",
+      "summary": "Developed electronically controlled suspension systems.",
+      "highlights": [
+        "Led R&D for adaptive suspension system.",
+        "Integrated suspension control with vehicle electrical systems."
+      ]
     }
   ],
-  "certificates": [
+  "projects": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "organization": "SAE BAJA Racing Team, NITT",
+      "position": "Powertrain and Data Acquisition Lead",
+      "startDate": "May 2018",
+      "endDate": "May 2021",
+      "summary": "Led team in building and optimizing an all-terrain vehicle.",
+      "highlights": [
+        "Achieved 5th place in BAJA SAE India 2020 & 2021.",
+        "Improved drivetrain efficiency by 10% using MATLAB modeling.",
+        "Reduced tuning time by 20% using telemetry and control optimization."
+      ]
     }
   ],
-  "publications": [
+  "internship": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "organization": "Raptee Energy Pvt Ltd, India",
+      "position": "Powertrain Intern",
+      "startDate": "Apr 2020",
+      "endDate": "May 2020",
+      "summary": "Worked on control strategies for electric motorcycle.",
+      "highlights": [
+        "Reduced energy consumption by 10% in economy mode.",
+        "Designed control algorithms and validated with Model-in-the-Loop simulation."
+      ]
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "name": "Programming",
+      "keywords": ["Python", "C/C++", "Matlab", "CUDA", "Latex", "Shell", "Git"]
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
+      "name": "Simulation Tools",
+      "keywords": ["Project Chrono", "MuJoCo", "Bullet Physics", "PhysX", "IPG CarMaker", "Simulink"]
+    },
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "CAD/FEA/MBD",
+      "keywords": ["Siemens NX", "Solidworks", "PTC Creo", "ANSYS", "Abaqus CAE", "MSC Adams"]
     }
   ]
 }

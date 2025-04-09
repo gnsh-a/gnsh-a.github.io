@@ -1,83 +1,36 @@
 ---
 layout: page
-title: project 3
-description: yet another project
-img: assets/img/14.jpg
-importance: 3
+title: BMW F450GS Development
+description: Vehicle Dynamics & Suspension Engineering for BMW’s next-gen ADV platform
+img: assets/img/bmw_1.jpg
+importance: 2
 category: work
 related_publications: false
 ---
 
-# Project Content
+As part of the **Vehicle Dynamics team** at **TVS Motor Company**, I contributed to the development of the **BMW F450GS** — a next-generation adventure motorcycle co-developed by TVS and BMW Motorrad. This platform is designed to offer a lightweight, high-performance ADV machine optimized for both off-road exploration and long-distance road travel.
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<!-- ### Key Contributions:
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+- **Suspension System Architecture**: Designed and simulated long-travel suspension geometry to ensure comfort, control, and durability over mixed terrain.
+- **3D Modeling & Drawings**: Created production-ready CAD models and technical drawings for suspension and chassis components using Siemens NX and Teamcenter.
+- **Multibody Dynamics & FEA**: Performed simulation and load analysis using MSC Adams and Abaqus to validate geometry and predict off-road behavior.
+- **Vendor Engagement**: Collaborated with global suspension vendors for DVPs, damper specs, and prototype feedback.
+- **Prototype Testing Support**: Participated in tuning suspension setup based on off-road and track feedback from test riders. -->
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+---
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/bmw_1.jpg" title="BMW F450GS Concept - Front 3/4 View" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/bmw_2.jpg" title="BMW F450GS Concept - Rear Perspective" class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
+
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+  Left: ADV posture and design language. Right: Rear view emphasizing the monoshock setup and geometry compactness.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+The BMW F450GS project combined simulation-driven development with rigorous prototype testing. It was a pivotal opportunity to apply advanced vehicle dynamics and engineering practices to shape a product destined for global adventure riders.

@@ -1,84 +1,37 @@
 ---
 layout: page
-title: project 5
-description: additional project
-img: assets/img/16.jpg
-importance: 5
-# Change or remove the category
+title: Powertrain Modeling - Raptee Energy
+description: Model-based design and control of electric motorcycle drivetrain
+img: assets/img/raptee_1.jpg
+importance: 4
 category: work
 related_publications: false
 ---
 
-# Project Content
+During my internship at **Raptee Energy**, I focused on developing a high-fidelity **powertrain model** for their flagship electric motorcycle platform. The goal was to design and validate control strategies that deliver both high performance and energy efficiency.
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This involved **simulation-driven development** using MATLAB/Simulink, with emphasis on validating the model over standardized drive cycles and integrating the control logic into vehicle prototypes.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+### Key Contributions:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+- **Dynamic Powertrain Modeling**: Developed a MATLAB/Simulink model of the motor, controller, throttle logic, and drivetrain, capturing both transient and steady-state behavior.
+- **WLTC-based Validation**: Calibrated the powertrain model using data from the **Worldwide Harmonized Light Vehicles Test Cycle (WLTC)** to ensure real-world relevance.
+- **Control Logic Design**: Implemented energy-conscious throttle control and drivetrain logic for different rider modes (Eco, Sport), balancing performance and range.
+- **Simulation to Integration**: Conducted **Model-in-the-Loop (MiL)** testing to verify algorithms before hardware deployment, improving tuning cycle time and confidence in real-time response.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+---
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/raptee_1.jpg" title="Raptee Electric Motorcycle - Concept View" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/raptee_2.jpg" title="Raptee Electric Motorcycle - Rear View" class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
+
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+  Left: Concept render of Raptee's electric motorcycle. Right: Rear view highlighting compact drivetrain packaging.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+This project gave me a solid foundation in **model-based development**, with exposure to **real-world EV control challenges**, simulation validation techniques, and embedded system integration.

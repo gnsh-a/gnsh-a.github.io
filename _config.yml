@@ -16,7 +16,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: icon.png # the image used as the favicon
 
 url: https://gnsh-a.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -217,9 +217,7 @@ exclude:
   # - _plugins/hide-custom-bibtex.rb
   # - _plugins/inspirehep-citations.rb
   # Add these lines to exclude projects 7, 8, and 9
-  - _projects/7_project.md
-  - _projects/8_project.md
-  - _projects/9_project.md
+  
 keep_files:
   - CNAME
   - .nojekyll

@@ -1,81 +1,54 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Triumph Motorcycles
+description: My contribution to Speed 400 and Scrambler 400 X
+img: assets/img/400x_1.jpg
 importance: 2
 category: work
-giscus_comments: true
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+As part of the engineering team at Triumph, I worked on the development of the **[Speed 400](https://www.triumphmotorcycles.com/motorcycles/classic/speed-400/speed-400-2024)** and **[Scrambler 400 X](https://www.triumphmotorcycles.com/motorcycles/classic/scrambler-400-x/scrambler-400-x-2024)**, two landmark models that represent Triumph’s foray into the modern classic small-displacement segment.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+My key contributions included:
+- **Chassis Engineering**: Optimized suspension geometry for both on-road agility (Speed 400) and off-road stability (Scrambler 400 X).
+- **Component Integration**: Coordinated cross-functional efforts to align suspension, braking, and electronic systems across both models.
+- **3D CAD & Production Drawings**: Developed detailed 3D models and production-ready 2D drawings using Siemens NX and Teamcenter, ensuring manufacturability with correct GD&T practices.
+- **Suspension Vendor Collaboration**: Worked with suspension suppliers across development stages—DFM reviews, prototyping, testing, and validation of front forks and rear shock absorbers.
+- **Testing & Validation**: Conducted track and road tests under varied terrain and load conditions to fine-tune suspension behavior and validate vehicle dynamics.
+- **Design Collaboration**: Partnered with the industrial design team to maintain Triumph’s legacy styling while achieving ergonomic and dynamic performance goals.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+These motorcycles are built on an all-new platform, combining heritage-inspired design with cutting-edge technology. They maintain Triumph's legacy while making the brand accessible to a new generation of riders.
+
+---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/400x_1.jpg" title="ScramblerX 400 - Front View" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/400x_2.jpg" title="Scrambler 400 X - Off-road" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/400_1.png" title="Speed 400 - Side View" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Left: Scrambler 400 X front profile. Center: Scrambler 400 X in off-road testing. Right: Side view of the Speed 400 showcasing classic Triumph lines.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Between long hours in the workshop and field testing in varied terrain, the project demanded deep technical involvement and creative problem-solving.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/400_2.jpg" title="Speed 400 - Front Suspension" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/400_3.jpg" title="Speed 400 - Rear Suspension" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Left: Speed 400 Front Suspension. Right: Speed 400 Rear Suspension.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+The [Speed 400](https://www.triumphmotorcycles.com/motorcycles/classic/speed-400/speed-400-2024) and [Scrambler 400 X](https://www.triumphmotorcycles.com/motorcycles/classic/scrambler-400-x/scrambler-400-x-2024) launched to critical acclaim, praised for their balance, accessibility, and unmistakable Triumph DNA.
