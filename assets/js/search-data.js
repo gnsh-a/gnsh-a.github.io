@@ -11,14 +11,14 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "A growing collection of my past and ongoing projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -63,36 +63,46 @@ ninja.data = [{
           section: "News",},{id: "news-joined-the-simulation-based-engineering-lab-at-uw-madison",
           title: 'Joined the Simulation-Based Engineering Lab at UW-Madison.',
           description: "",
-          section: "News",},{id: "projects-triumph-motorcycles",
-          title: 'Triumph Motorcycles',
-          description: "Speed 400 and Scrambler 400",
+          section: "News",},{id: "projects-moonracer-simulation-infrastructure",
+          title: 'MoonRacer - Simulation Infrastructure',
+          description: "GPU-accelerated framework for lunar vehicle simulation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-triumph-motorcycles",
+          title: 'Triumph Motorcycles',
+          description: "My contribution to Speed 400 and Scrambler 400 X",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3",
-          title: 'project 3',
-          description: "yet another project",
+            },},{id: "projects-bmw-f450gs-development",
+          title: 'BMW F450GS Development',
+          description: "Vehicle Dynamics &amp; Suspension Engineering for BMW’s next-gen ADV platform",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "more projects",
+            },},{id: "projects-sae-baja-team",
+          title: 'SAE BAJA Team',
+          description: "Chassis Design, Powertrain, and Data Acquisition – BAJA SAE India &amp; Enduro Student India",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "additional project",
+            },},{id: "projects-powertrain-modeling-raptee-energy",
+          title: 'Powertrain Modeling - Raptee Energy',
+          description: "Model-based design and control of electric motorcycle drivetrain",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "another one",
+            },},{id: "projects-parallel-rrt-for-autonomous-robots",
+          title: 'Parallel RRT for Autonomous Robots',
+          description: "Accelerating path planning using OpenMP and CUDA",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
+            },},{id: "projects-loader-simulation-with-dem",
+          title: 'Loader Simulation with DEM',
+          description: "Modeling wheel loader-soil interaction using Chrono::Engine and DEM",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_project/";
+            },},{id: "projects-robotic-manipulator-simulation",
+          title: 'Robotic Manipulator Simulation',
+          description: "Modeling and control of a serial robotic arm",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_project/";
             },},{
         id: 'social-email',
         title: 'email',
