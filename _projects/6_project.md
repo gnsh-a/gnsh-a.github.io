@@ -4,7 +4,7 @@ title: Parallel RRT for Autonomous Robots
 description: Accelerating path planning using OpenMP and CUDA
 img: assets/img/rrt_1.png
 importance: 2
-category: simulation
+category: software
 related_publications: false
 ---
 

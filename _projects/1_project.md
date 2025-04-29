@@ -4,7 +4,7 @@ title: MoonRacer - Simulation Infrastructure
 description: GPU-accelerated framework for lunar vehicle simulation
 img: assets/img/int_2.png
 importance: 1
-category: simulation
+category: software
 related_publications: false
 ---
 

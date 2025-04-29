@@ -4,7 +4,7 @@ title: Robotic Manipulator Simulation
 description: Modeling and control of a serial robotic arm
 img: assets/img/441_1.png
 importance: 1
-category: simulation
+category: software
 related_publications: false
 ---
 
@@ -14,25 +14,23 @@ The project is guided by topics in robotic motion and control, including forward
 
 ---
 
-### What I’m Building
+### What I'm Building
 
 - **Forward & Inverse Kinematics**: Implemented using homogeneous transformations and the Denavit-Hartenberg (DH) convention.
 - **Jacobian & Differential Kinematics**: Derived analytical Jacobians to compute velocity mappings and evaluate kinematic singularities.
 - **Dynamics via Lagrangian Formulation**: Modeled joint torques, inertia matrices, and Coriolis/gravity forces for n-link robots.
 - **Numerical Integration**: Solved the equations of motion using custom MATLAB scripts to simulate multi-link dynamics.
+
 ---
 
 <div class="row justify-content-sm-center">
-  <div class="col-sm-6 mt-3 mt-md-0">
+  <div class="col-sm-12 mt-3 mt-md-0">
     {% include figure.liquid path="assets/img/441_1.png" title="Manipulator Kinematics Simulation" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/robot_arm_control.jpg" title="Operational Space Control Snapshot" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
 <div class="caption">
-  Left: Kinematic structure of the manipulator including DH-based transformation chain. Right: WIP.
+  Kinematic structure of the manipulator including DH-based transformation chain.
 </div>
 
 ---

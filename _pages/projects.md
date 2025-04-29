@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of my past and ongoing projects.
 nav: true
 nav_order: 3
-display_categories: [simulation, work]
+display_categories: [software, hardware]
 horizontal: false
 ---
 

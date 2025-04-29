@@ -4,7 +4,7 @@ title: Powertrain Modeling - Raptee Energy
 description: Model-based design and control of electric motorcycle drivetrain
 img: assets/img/raptee_1.jpg
 importance: 4
-category: work
+category: software
 related_publications: false
 ---
 

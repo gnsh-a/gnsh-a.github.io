@@ -29,7 +29,7 @@ announcements:
 
 I am a graduate student in Mechanical Engineering at the University of Wisconsin Madison. My research interests are in the area of simulation in robotics.
 
-You can view my [resume](path/to/your/resume.pdf) and visit my [GitHub profile](https://github.com/yourusername).
+You can view my [resume](assets/pdf/Resume.pdf) and visit my [GitHub profile](https://github.com/gnsh-a).
 
 
 <!-- Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->

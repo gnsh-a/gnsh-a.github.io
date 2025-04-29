@@ -4,7 +4,7 @@ title: Triumph Motorcycles
 description: My contribution to Speed 400 and Scrambler 400 X
 img: assets/img/400x_1.jpg
 importance: 2
-category: work
+category: hardware
 related_publications: false
 ---
 
