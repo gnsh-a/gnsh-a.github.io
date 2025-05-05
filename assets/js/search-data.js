@@ -90,7 +90,7 @@ ninja.data = [{
               window.location.href = "/projects/5_project/";
             },},{id: "projects-parallel-rrt-for-autonomous-robots",
           title: 'Parallel RRT for Autonomous Robots',
-          description: "Accelerating path planning using OpenMP and CUDA",
+          description: "Accelerated path planning using OpenMP and CUDA",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
             },},{id: "projects-loader-simulation-with-dem",
