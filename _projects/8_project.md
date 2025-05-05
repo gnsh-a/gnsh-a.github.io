@@ -8,18 +8,20 @@ category: software
 related_publications: false
 ---
 
-As part of **ME/ECE 441: Kinematics, Dynamics, and Control of Robotic Manipulators** at UW–Madison, I am developing a simulation stack for a **serial robotic manipulator**. This includes modeling, analysis, and control of an n-link arm using both analytical methods and numerical simulation.
+As part of **ME/ECE 441: Kinematics, Dynamics, and Control of Robotic Manipulators** at UW–Madison, I completed a project simulating a **serial robotic manipulator**, applying principles of robotic analysis and control through hands-on MATLAB development.
 
-The project is guided by topics in robotic motion and control, including forward and inverse kinematics, Jacobians, singularities, Lagrangian dynamics, and trajectory tracking.
+This work integrates concepts from forward/inverse kinematics, differential kinematics, Lagrangian dynamics, trajectory planning, and control strategies in joint and task space.
 
 ---
 
-### What I'm Building
+### Project Highlights
 
-- **Forward & Inverse Kinematics**: Implemented using homogeneous transformations and the Denavit-Hartenberg (DH) convention.
-- **Jacobian & Differential Kinematics**: Derived analytical Jacobians to compute velocity mappings and evaluate kinematic singularities.
-- **Dynamics via Lagrangian Formulation**: Modeled joint torques, inertia matrices, and Coriolis/gravity forces for n-link robots.
-- **Numerical Integration**: Solved the equations of motion using custom MATLAB scripts to simulate multi-link dynamics.
+- **Kinematics (Forward & Inverse)**: Modeled using homogeneous transforms and the Denavit-Hartenberg (DH) convention.
+- **Jacobian & Differential Kinematics**: Derived analytical Jacobians, evaluated kinematic singularities, and implemented inverse velocity and acceleration mappings.
+- **Dynamics via Lagrangian Formulation**: Computed joint torques and modeled n-link robots through energy-based approaches.
+- **Numerical Integration**: Developed custom MATLAB solvers to simulate motion under computed torques.
+- **Trajectory & Path Planning**: Implemented single-joint trajectory generation and explored fundamentals of path planning.
+- **Control**: Explored independent joint control and nonlinear dynamic decoupling concepts.
 
 ---
 
@@ -42,4 +44,4 @@ The project is guided by topics in robotic motion and control, including forward
 
 ---
 
-This project provides practical reinforcement of theoretical concepts in **serial chain manipulator kinematics, dynamics, and control**, and gives me a deeper understanding of robotic motion planning in both joint and task space.
+This simulation stack provided a hands-on environment to implement core robotic manipulation concepts and strengthened my understanding of modeling, motion planning, and control of serial manipulators in both joint and operational space.

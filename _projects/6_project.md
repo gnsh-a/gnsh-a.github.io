@@ -1,59 +1,46 @@
 ---
 layout: page
 title: Parallel RRT for Autonomous Robots
-description: Accelerating path planning using OpenMP and CUDA
+description: Accelerated path planning using OpenMP and CUDA
 img: assets/img/rrt_1.png
 importance: 2
 category: software
 related_publications: false
 ---
 
-As part of **ECE 759: High Performance Computing (Spring 2025)** at UW–Madison, I am working on a team project to accelerate motion planning algorithms — specifically **RRT (Rapidly-exploring Random Tree)** and **PRM (Probabilistic Roadmap)** — using **parallel computing techniques** on both CPU (OpenMP) and GPU (CUDA).
-
-The goal is to improve the scalability and runtime performance of these algorithms for use in autonomous systems like robots and vehicles navigating complex environments.
+As part of **ECE 759: High Performance Computing (Spring 2025)** at UW–Madison, I contributed to a project that significantly accelerated path planning algorithms using **parallel computing** on both CPU and GPU. We focused on **Standard RRT** and **Bidirectional RRT**, achieving up to **151× speedup** using CUDA on NVIDIA GPUs.
 
 **GitHub Repository**: [https://github.com/xuann6/ece759_final_proj.git](https://github.com/xuann6/ece759_final_proj.git)
 
 ---
 
-### Motivation
+### Contributions
 
-RRT and PRM are widely used in robotics for path planning, but they face challenges in:
-- **Nearest node search** latency as the tree grows
-- **Expensive collision detection** in cluttered spaces
-
-We aim to overcome these limitations through parallelism, enabling faster planning in large, obstacle-dense environments.
-
----
-
-### Current Focus
-
-- **Baseline Implementation**: We are implementing sequential versions of RRT and PRM in C++ as performance baselines.
-- **Parallel CPU Version**: Using **OpenMP**, we parallelize node sampling and nearest-neighbor computation.
-- **GPU Acceleration**: We are designing **CUDA kernels** for collision detection and environment sampling.
-- **Visualization & Evaluation**: A Python-based visualization frontend is used to interpret results and compare algorithm behavior in various test environments.
+- Parallelized **nearest node search**, **collision detection**, and **tree expansion** using **OpenMP** (C++) and **CUDA**.
+- Developed **highly optimized CUDA kernels** to improve GPU occupancy, reduce memory latency, and minimize kernel launch overhead.
+- Implemented **warp-level sampling**, **struct-of-arrays layout**, and **branchless geometry predicates** for efficient path validation.
+- Achieved a peak **151× speedup** by fusing kernels, increasing occupancy, and reducing atomic contention in Bidirectional RRT.
 
 ---
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/rrt_1.png" title="CPU-based RRT Exploration (in progress)" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/rrt_1.png" title="CUDA-accelerated RRT Path Expansion" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
 <div class="caption">
-  RRT exploration tree being generated using sequential CPU baseline.
+  RRT expansion visualized on a 2D environment using the CUDA-accelerated implementation.
 </div>
 
 ---
 
-### Tools & Topics Involved
+### Key Technologies
 
-- `CUDA`, `OpenMP`, `C++`, and `Python`
-- Multi-threaded node sampling and tree extension
-- GPU memory management and kernel optimization
-- Performance benchmarking techniques
+- `CUDA`, `OpenMP`, `C++`, `Python`, `cuRAND`, `Thrust`
+- Nsight profiling, persistent-thread GPU kernels
+- Collision checking using shared memory and branchless logic
 
 ---
 
-This project gives me hands-on experience applying **parallel computing principles** to a real-world robotics problem, while deepening my understanding of **algorithmic design, GPU architecture**, and **performance engineering**.
+This project strengthened my skills in **parallel programming, GPU kernel design, and motion planning for autonomous systems**, with direct applicability to robotics and embedded AI applications.
