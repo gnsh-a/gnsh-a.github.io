@@ -203,7 +203,6 @@ exclude:
   - _layouts/archive.liquid
   - _plugins/external-posts.rb
   # - _bibliography/
-  - _pages/publications.md
   - _pages/teaching.md
   # Add the people page to the exclude list
   - _pages/profiles.md
