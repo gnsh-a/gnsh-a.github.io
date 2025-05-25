@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-publications",
+          title: "publications",
+          description: "publications listed in reverse chronological order.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "",
@@ -123,6 +130,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/gnsh-a", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=fyiJskcAAAAJ", "_blank");
         },
       },{
       id: 'light-theme',
