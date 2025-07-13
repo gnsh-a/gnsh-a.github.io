@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MoonRacer - Simulation Infrastructure
+title: Lunar Rover Vehicle Simulation Infrastructure
 description: GPU-accelerated framework for lunar vehicle simulation
 img: assets/img/int_2.png
 importance: 1
