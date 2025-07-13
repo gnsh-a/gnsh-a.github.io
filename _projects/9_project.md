@@ -5,7 +5,7 @@ description: High-performance computing acceleration for large-scale mechanical 
 img: assets/img/publication_preview/gpu_solver.png
 importance: 1
 category: software
-related_publications: true
+related_publications: false
 ---
 
 As part of my research at the **Simulation-Based Engineering Lab (UW–Madison)**, I contribute to the development of **GPU-accelerated linear solvers** for multibody dynamics (MBD) simulations. This work focuses on leveraging parallel computing architectures to solve large-scale mechanical systems efficiently.
@@ -34,7 +34,3 @@ As part of my research at the **Simulation-Based Engineering Lab (UW–Madison)*
 
 This research demonstrates the potential of GPU computing to dramatically accelerate multibody dynamics simulations, enabling real-time analysis of complex mechanical systems and supporting next-generation simulation-based design workflows.
 
-### Publications:
-
-This work is presented in:
-- **Arivoli, G.**, Unjhawala, H., Taylor, M., Serban, R., & Negrut, D. (2025). "On the Use of GPU-Based Linear Solvers in Multibody Dynamics." *ASME IDETC-CIE Conference*.
