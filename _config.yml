@@ -215,14 +215,14 @@ exclude:
   # - _plugins/hide-custom-bibtex.rb
   # - _plugins/inspirehep-citations.rb
   # Add these lines to exclude projects 7, 8, and 9
-  
+
 keep_files:
   - CNAME
   - .nojekyll
 
 # Plug-ins
 plugins:
-#  - jekyll-archives-v2
+  #  - jekyll-archives-v2
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json

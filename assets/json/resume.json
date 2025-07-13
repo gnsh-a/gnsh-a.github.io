@@ -29,13 +29,7 @@
       "endDate": "May 2021"
     }
   ],
-  "courses": [
-    "Mechanics of Machines",
-    "Mechatronics",
-    "Vehicle Dynamics",
-    "Design of Machine Elements",
-    "High Performance Computing"
-  ],
+  "courses": ["Mechanics of Machines", "Mechatronics", "Vehicle Dynamics", "Design of Machine Elements", "High Performance Computing"],
   "work": [
     {
       "name": "Simulation-Based Engineering Lab, UW-Madison",
@@ -67,10 +61,7 @@
       "startDate": "Feb 2024",
       "endDate": "Aug 2024",
       "summary": "Developed electronically controlled suspension systems.",
-      "highlights": [
-        "Led R&D for adaptive suspension system.",
-        "Integrated suspension control with vehicle electrical systems."
-      ]
+      "highlights": ["Led R&D for adaptive suspension system.", "Integrated suspension control with vehicle electrical systems."]
     }
   ],
   "projects": [

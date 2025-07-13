@@ -18,7 +18,7 @@ Our team consistently ranked in the **top 5 nationally** among 100+ participatin
 - **Powertrain Modeling & Tuning**: Developed a dynamic model of the CVT using MATLAB, which improved drivetrain tuning efficiency by 10%.
 - **Data Acquisition & Telemetry**: Led integration of sensor systems and real-time telemetry for in-depth performance analysis and dynamic tuning.
 - **Track Testing & Calibration**: Iterated on suspension geometry and drivetrain settings based on sensor feedback and driver input during rigorous on-track testing.
-- **Team Achievements**: 
+- **Team Achievements**:
   - Top 5 in BAJA SAE India (2020, 2021)
   - Podium finishes in Enduro Student India
   - Recognized for innovation in drivetrain control and durability testing

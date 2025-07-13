@@ -11,6 +11,7 @@ related_publications: false
 As part of the engineering team at Triumph, I worked on the development of the **[Speed 400](https://www.triumphmotorcycles.com/motorcycles/classic/speed-400/speed-400-2024)** and **[Scrambler 400 X](https://www.triumphmotorcycles.com/motorcycles/classic/scrambler-400-x/scrambler-400-x-2024)**, two landmark models that represent Triumph’s foray into the modern classic small-displacement segment.
 
 My key contributions included:
+
 - **Chassis Engineering**: Optimized suspension geometry for both on-road agility (Speed 400) and off-road stability (Scrambler 400 X).
 - **Component Integration**: Coordinated cross-functional efforts to align suspension, braking, and electronic systems across both models.
 - **3D CAD & Production Drawings**: Developed detailed 3D models and production-ready 2D drawings using Siemens NX and Teamcenter, ensuring manufacturability with correct GD&T practices.

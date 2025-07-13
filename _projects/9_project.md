@@ -10,7 +10,6 @@ related_publications: false
 
 As part of my research at the **Simulation-Based Engineering Lab (UW–Madison)**, I contribute to the development of **GPU-accelerated linear solvers** for multibody dynamics (MBD) simulations. This work focuses on leveraging parallel computing architectures to solve large-scale mechanical systems efficiently.
 
-
 ### Key Contributions:
 
 - **GPU Solver Implementation**: Integrated CUDA-based sparse linear solvers specifically designed for the constraint matrices encountered in multibody dynamics formulations.
@@ -33,4 +32,3 @@ As part of my research at the **Simulation-Based Engineering Lab (UW–Madison)*
 ---
 
 This research demonstrates the potential of GPU computing to dramatically accelerate multibody dynamics simulations, enabling real-time analysis of complex mechanical systems and supporting next-generation simulation-based design workflows.
-
