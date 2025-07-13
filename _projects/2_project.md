@@ -8,7 +8,7 @@ category: hardware
 related_publications: false
 ---
 
-As part of the engineering team at Triumph, I worked on the development of the **[Speed 400](https://www.triumphmotorcycles.com/motorcycles/classic/speed-400/speed-400-2024)** and **[Scrambler 400 X](https://www.triumphmotorcycles.com/motorcycles/classic/scrambler-400-x/scrambler-400-x-2024)**, two landmark models that represent Triumph’s foray into the modern classic small-displacement segment.
+As part of the engineering team at Triumph, I worked on the development of the **[Speed 400](https://www.triumphmotorcycles.com/motorcycles/classic/speed-400)** and **[Scrambler 400 X](https://www.triumphmotorcycles.com/motorcycles/classic/scrambler-400-x)**, two landmark models that represent Triumph's foray into the modern classic small-displacement segment.
 
 My key contributions included:
 
