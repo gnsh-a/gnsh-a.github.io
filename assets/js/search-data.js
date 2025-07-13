@@ -70,8 +70,8 @@ ninja.data = [{
           section: "News",},{id: "news-joined-the-simulation-based-engineering-lab-at-uw-madison",
           title: 'Joined the Simulation-Based Engineering Lab at UW-Madison.',
           description: "",
-          section: "News",},{id: "projects-moonracer-simulation-infrastructure",
-          title: 'MoonRacer - Simulation Infrastructure',
+          section: "News",},{id: "projects-lunar-rover-vehicle-simulation-infrastructure",
+          title: 'Lunar Rover Vehicle Simulation Infrastructure',
           description: "GPU-accelerated framework for lunar vehicle simulation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
@@ -110,6 +110,11 @@ ninja.data = [{
           description: "Modeling and control of a serial robotic arm",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
+            },},{id: "projects-gpu-based-linear-solvers-for-multibody-dynamics",
+          title: 'GPU-Based Linear Solvers for Multibody Dynamics',
+          description: "High-performance computing acceleration for large-scale mechanical systems",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_project/";
             },},{
         id: 'social-email',
         title: 'email',
