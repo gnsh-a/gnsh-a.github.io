@@ -13,11 +13,10 @@ As part of my research at the **Simulation-Based Engineering Lab (UW–Madison)*
 
 ### Key Contributions:
 
-- **GPU Solver Implementation**: I develop and optimize CUDA-based sparse linear solvers specifically tailored for the constraint matrices arising in multibody dynamics formulations.
-- **Performance Analysis**: I conduct comprehensive benchmarking studies comparing GPU solvers against traditional CPU-based approaches, achieving significant speedups for large-scale systems.
-- **Integration with Chrono**: I integrate GPU solvers into the Project Chrono ecosystem, enabling scalable simulation of complex mechanical systems with thousands of bodies and constraints.
-- **Memory Optimization**: I implement memory-efficient data structures and algorithms to handle the sparse, often ill-conditioned matrices common in MBD problems.
-- **Numerical Stability**: I address numerical challenges specific to GPU architectures, including precision considerations and iterative solver convergence.
+- **GPU Solver Implementation**: Integrated CUDA-based sparse linear solvers specifically designed for the constraint matrices encountered in multibody dynamics formulations.
+- **Performance Analysis**: Conducted comprehensive benchmarking studies to compare GPU solvers with traditional CPU-based approaches, resulting in significant performance improvements for large-scale systems.
+- **Integration with Chrono**: Working on integrating GPU solvers into the Project Chrono ecosystem, facilitating scalable simulations of complex mechanical systems comprising thousands of bodies and constraints.
+- **Memory Optimization**: Implemented memory-efficient data structures and algorithms to manage the sparse, often ill-conditioned matrices prevalent in multibody dynamics problems.
 
 ---
 
@@ -32,13 +31,6 @@ As part of my research at the **Simulation-Based Engineering Lab (UW–Madison)*
 </div>
 
 ---
-
-### Technical Details:
-
-- **CUDA Programming**: Developed custom CUDA kernels for sparse matrix operations, leveraging GPU memory hierarchy and thread synchronization.
-- **Sparse Linear Algebra**: Implemented iterative solvers (CG, BiCGSTAB, GMRES) with GPU-optimized preconditioners for constraint satisfaction problems.
-- **Benchmarking Framework**: Created comprehensive testing suite to evaluate solver performance across different problem sizes and system configurations.
-- **Integration Testing**: Validated GPU solver accuracy and stability against analytical solutions and established CPU-based reference implementations.
 
 This research demonstrates the potential of GPU computing to dramatically accelerate multibody dynamics simulations, enabling real-time analysis of complex mechanical systems and supporting next-generation simulation-based design workflows.
 
