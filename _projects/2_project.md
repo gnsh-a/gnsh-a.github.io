@@ -52,4 +52,4 @@ Between long hours in the workshop and field testing in varied terrain, the proj
     Left: Speed 400 Front Suspension. Right: Speed 400 Rear Suspension.
 </div>
 
-The [Speed 400](https://www.triumphmotorcycles.com/motorcycles/classic/speed-400/speed-400-2024) and [Scrambler 400 X](https://www.triumphmotorcycles.com/motorcycles/classic/scrambler-400-x/scrambler-400-x-2024) launched to critical acclaim, praised for their balance, accessibility, and unmistakable Triumph DNA.
+The [Speed 400](https://www.triumphmotorcycles.com/motorcycles/classic/speed-400) and [Scrambler 400 X](https://www.triumphmotorcycles.com/motorcycles/classic/scrambler-400-x) launched to critical acclaim, praised for their balance, accessibility, and unmistakable Triumph DNA.
