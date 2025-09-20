@@ -27,7 +27,7 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a graduate student in Mechanical Engineering at the University of Wisconsin Madison. My research interests are in the area of simulation in robotics.
+I am a graduate student in Mechanical Engineering at the University of Wisconsin-Madison, working in the [Simulation-Based Engineering Laboratory (SBEL)](https://sbel.wisc.edu/). My research interests are in the area of simulation in robotics.
 
 You can view my [resume](/assets/pdf/Resume.pdf) and visit my [GitHub profile](https://github.com/gnsh-a).
 
