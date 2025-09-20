@@ -70,7 +70,12 @@ ninja.data = [{
           section: "News",},{id: "news-joined-the-simulation-based-engineering-lab-at-uw-madison",
           title: 'Joined the Simulation-Based Engineering Lab at UW-Madison.',
           description: "",
-          section: "News",},{id: "projects-lunar-rover-vehicle-simulation-infrastructure",
+          section: "News",},{id: "projects-data-driven-bulldozer-blade-control-for-autonomous-terrain-leveling",
+          title: 'Data-Driven Bulldozer Blade Control for Autonomous Terrain Leveling',
+          description: "Simulation-driven framework for optimizing low-level bulldozer blade control",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_project/";
+            },},{id: "projects-lunar-rover-vehicle-simulation-infrastructure",
           title: 'Lunar Rover Vehicle Simulation Infrastructure',
           description: "GPU-accelerated framework for lunar vehicle simulation",
           section: "Projects",handler: () => {
