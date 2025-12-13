@@ -75,6 +75,11 @@ ninja.data = [{
           description: "Simulation-driven framework for optimizing low-level bulldozer blade control",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_project/";
+            },},{id: "projects-3d-human-pose-estimation-in-video",
+          title: '3D Human Pose Estimation in Video',
+          description: "Comparison between transformer-based and CNN-based architectures for 3D human pose estimation",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/11_project/";
             },},{id: "projects-lunar-rover-vehicle-simulation-infrastructure",
           title: 'Lunar Rover Vehicle Simulation Infrastructure',
           description: "GPU-accelerated framework for lunar vehicle simulation",
