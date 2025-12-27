@@ -77,9 +77,14 @@ ninja.data = [{
               window.location.href = "/projects/10_project/";
             },},{id: "projects-3d-human-pose-estimation-in-video",
           title: '3D Human Pose Estimation in Video',
-          description: "Comparison between transformer-based and CNN-based architectures for 3D human pose estimation",
+          description: "Comparison between transformer and CNN-based architectures for 3D human pose estimation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11_project/";
+            },},{id: "projects-flexible-multibody-dynamics-simulator",
+          title: 'Flexible Multibody Dynamics Simulator',
+          description: "Finite-element simulation of a clamped cantilever beam with BDF-1 integrator.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/12_project/";
             },},{id: "projects-lunar-rover-vehicle-simulation-infrastructure",
           title: 'Lunar Rover Vehicle Simulation Infrastructure',
           description: "GPU-accelerated framework for lunar vehicle simulation",
@@ -105,9 +110,9 @@ ninja.data = [{
           description: "Model-based design and control of electric motorcycle drivetrain",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-parallel-rrt-for-autonomous-robots",
-          title: 'Parallel RRT for Autonomous Robots',
-          description: "Accelerated path planning using OpenMP and CUDA",
+            },},{id: "projects-gpu-accelerated-path-planning-for-autonomous-robots",
+          title: 'GPU-Accelerated Path Planning for Autonomous Robots',
+          description: "Accelerated path planning using Rapidly-exploring Random Trees (RRT) with OpenMP/CUDA",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
             },},{id: "projects-loader-simulation-with-dem",
