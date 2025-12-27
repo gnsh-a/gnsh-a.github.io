@@ -656,6 +656,9 @@ footer.sticky-bottom {
 // Projects
 
 .projects {
+  .projects-tab > * > a {
+    text-transform: none;
+  }
   a {
     text-decoration: none;
 
@@ -663,12 +666,142 @@ footer.sticky-bottom {
       .card-title {
         color: var(--global-theme-color);
       }
+
+      .project-title {
+        color: #0066cc;
+      }
     }
   }
+
 
   .card {
     img {
       width: 100%;
+    }
+  }
+
+  .project-row {
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    gap: 0.75rem;
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 0.75rem;
+    border-bottom: 1px solid var(--global-divider-color);
+    border-radius: 6px;
+    background: var(--global-card-bg-color);
+    transition: border-color 0.2s ease;
+    --project-row-height: 110px;
+    height: var(--project-row-height);
+
+    &:hover {
+      border-color: var(--global-theme-color);
+    }
+
+  }
+
+  .project-body {
+    display: flex;
+    gap: 0.75rem;
+    flex: 1;
+    color: inherit;
+  }
+
+  .project-media {
+    flex: 0 0 160px;
+    max-width: 160px;
+    height: calc(var(--project-row-height) - 1rem);
+    overflow: hidden;
+
+    figure {
+      margin: 0;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+  }
+
+  .project-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .project-title {
+    font-size: 1.05rem;
+    margin-bottom: 0.35rem;
+  }
+
+  .project-title-link {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .project-title-link:hover {
+    color: #0066cc;
+  }
+
+  .project-description {
+    margin-bottom: 0.25rem;
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+  }
+
+  .project-actions {
+    display: flex;
+    align-items: center;
+  }
+
+  .project-view-link {
+    font-size: 0.9rem;
+    color: var(--global-text-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+
+  .project-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.95rem;
+  }
+
+  .project-meta-link {
+    color: var(--global-text-color);
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+
+  .project-stars {
+    color: var(--global-text-color-light);
+    font-size: 0.95rem;
+  }
+
+  @media (max-width: 768px) {
+    .project-row,
+    .project-body {
+      flex-direction: column;
+    }
+
+    .project-row {
+      height: auto;
+    }
+
+    .project-media {
+      max-width: 100%;
+
+      img {
+        height: auto;
+      }
     }
   }
 

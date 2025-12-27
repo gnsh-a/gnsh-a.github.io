@@ -3,7 +3,7 @@ layout: page
 title: Data-Driven Bulldozer Blade Control for Autonomous Terrain Leveling
 description: Simulation-driven framework for optimizing low-level bulldozer blade control
 img: assets/img/publication_preview/fpp.png
-importance: 2
+importance: 3
 category: software
 related_publications: false
 redirect: https://uwsbel.github.io/Autonomous-Leveling/

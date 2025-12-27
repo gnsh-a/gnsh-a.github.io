@@ -7,6 +7,11 @@
   position: relative;
 }
 
+.projects .tab {
+  justify-content: flex-end;
+  margin-left: 0;
+}
+
 .tab > * {
   flex: none;
   padding-left: 20px;
@@ -45,4 +50,9 @@
 }
 .tab-content > li.active {
   display: block;
+}
+
+.projects .tab > * > a {
+  text-transform: lowercase;
+  font-size: 16px;
 }

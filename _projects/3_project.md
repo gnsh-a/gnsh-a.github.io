@@ -3,7 +3,7 @@ layout: page
 title: BMW F450GS Development
 description: Vehicle Dynamics & Suspension Engineering for BMW’s next-gen ADV platform
 img: assets/img/bmw_1.jpg
-importance: 2
+importance: 3
 category: hardware
 related_publications: false
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Parallel RRT for Autonomous Robots
-description: Accelerated path planning using OpenMP and CUDA
+title: GPU-Accelerated Path Planning for Autonomous Robots
+description: Accelerated path planning using Rapidly-exploring Random Trees (RRT) with OpenMP/CUDA
 img: assets/img/rrt_1.png
 importance: 2
 category: software
