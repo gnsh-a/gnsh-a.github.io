@@ -13,11 +13,6 @@
           </a>
         </h3>
         <p class="project-description">{{ project.description }}</p>
-        <div class="project-actions">
-          <a class="project-view-link" href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
-            View project &rarr;
-          </a>
-        </div>
       </div>
     </div>
     {% if project.github or project.github_stars %}

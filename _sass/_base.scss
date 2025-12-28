@@ -751,21 +751,6 @@ footer.sticky-bottom {
     font-size: 0.9rem;
   }
 
-  .project-actions {
-    display: flex;
-    align-items: center;
-  }
-
-  .project-view-link {
-    font-size: 0.9rem;
-    color: var(--global-text-color);
-    text-decoration: none;
-
-    &:hover {
-      color: var(--global-theme-color);
-    }
-  }
-
   .project-meta {
     display: flex;
     align-items: center;
