@@ -1,34 +1,34 @@
 <div class="col-12">
-  <div class="project-row{% unless project.img %} project-row--no-media{% endunless %}">
-    <div class="project-body">
-      {% if project.img %}
-        <div class="project-media">
-          {% include figure.liquid loading="eager" path=project.img sizes="(min-width: 768px) 220px, 90vw" alt="project thumbnail" class="project-thumb" %}
+  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
+    <div class="project-row{% unless project.img %} project-row--no-media{% endunless %}">
+      <div class="project-body">
+        {% if project.img %}
+           <div class="project-media">
+             {% include figure.liquid loading="eager" path=project.img sizes="(min-width: 768px) 160px, 90vw" alt="project thumbnail" class="project-thumb" %}
+           </div>
+        {% endif %}
+        <div class="project-content">
+          <h3 class="project-title">
+            {{ project.title }}
+          </h3>
+          <p class="project-description">{{ project.description }}</p>
+        </div>
+      </div>
+      {% if project.github or project.github_stars %}
+        <div class="project-meta">
+          {% if project.github %}
+            <a class="project-meta-link" href="{{ project.github }}" data-toggle="tooltip" title="Code Repository" aria-label="Code Repository">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          {% endif %}
+          {% if project.github_stars %}
+            <span class="project-stars" data-toggle="tooltip" title="GitHub Stars">
+              <i class="fa-solid fa-star"></i>
+              <span id="{{ project.github_stars }}-stars"></span>
+            </span>
+          {% endif %}
         </div>
       {% endif %}
-      <div class="project-content">
-        <h3 class="project-title">
-          <a class="project-title-link" href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
-            {{ project.title }}
-          </a>
-        </h3>
-        <p class="project-description">{{ project.description }}</p>
-      </div>
     </div>
-    {% if project.github or project.github_stars %}
-      <div class="project-meta">
-        {% if project.github %}
-          <a class="project-meta-link" href="{{ project.github }}" data-toggle="tooltip" title="Code Repository" aria-label="Code Repository">
-            <i class="fa-brands fa-github"></i>
-          </a>
-        {% endif %}
-        {% if project.github_stars %}
-          <span class="project-stars" data-toggle="tooltip" title="GitHub Stars">
-            <i class="fa-solid fa-star"></i>
-            <span id="{{ project.github_stars }}-stars"></span>
-          </span>
-        {% endif %}
-      </div>
-    {% endif %}
-  </div>
+  </a>
 </div>

@@ -167,7 +167,8 @@ ul.task-list input[type="checkbox"] {
 // Card
 
 .card {
-  background-color: var(--global-card-bg-color);
+  background-color: transparent;
+  border-radius: 0;
 
   .card-img {
     width: 100%;
@@ -510,7 +511,7 @@ footer.sticky-bottom {
   margin-bottom: 40px;
 
   .card {
-    background-color: var(--global-card-bg-color);
+    background-color: transparent;
     border: 1px solid var(--global-divider-color);
 
     .list-group-item {
@@ -673,7 +674,6 @@ footer.sticky-bottom {
     }
   }
 
-
   .card {
     img {
       width: 100%;
@@ -688,16 +688,10 @@ footer.sticky-bottom {
     padding: 0.5rem 0.75rem;
     margin-bottom: 0.75rem;
     border-bottom: 1px solid var(--global-divider-color);
-    border-radius: 6px;
-    background: var(--global-card-bg-color);
-    transition: border-color 0.2s ease;
+    border-radius: 0;
+    background: transparent;
     --project-row-height: 110px;
     height: var(--project-row-height);
-
-    &:hover {
-      border-color: var(--global-theme-color);
-    }
-
   }
 
   .project-body {
@@ -720,7 +714,7 @@ footer.sticky-bottom {
     img {
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: contain;
       border-radius: 4px;
     }
   }
@@ -734,15 +728,6 @@ footer.sticky-bottom {
   .project-title {
     font-size: 1.05rem;
     margin-bottom: 0.35rem;
-  }
-
-  .project-title-link {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .project-title-link:hover {
-    color: #0066cc;
   }
 
   .project-description {
