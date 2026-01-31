@@ -3,9 +3,9 @@
     <div class="project-row{% unless project.img %} project-row--no-media{% endunless %}">
       <div class="project-body">
         {% if project.img %}
-           <div class="project-media">
-             {% include figure.liquid loading="eager" path=project.img sizes="(min-width: 768px) 160px, 90vw" alt="project thumbnail" class="project-thumb" %}
-           </div>
+          <div class="project-media">
+            {% include figure.liquid loading="eager" path=project.img sizes="(min-width: 768px) 160px, 90vw" alt="project thumbnail" class="project-thumb" %}
+          </div>
         {% endif %}
         <div class="project-content">
           <h3 class="project-title">
