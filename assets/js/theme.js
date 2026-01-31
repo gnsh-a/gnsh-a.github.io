@@ -1,15 +1,26 @@
 // Has to be in the head tag, otherwise a flicker effect will occur.
 
-// Toggle through light, dark, and system theme settings.
+// Toggle between system preference and opposite of system.
 let toggleThemeSetting = () => {
   let themeSetting = determineThemeSetting();
   if (themeSetting == "system") {
-    setThemeSetting("light");
-  } else if (themeSetting == "light") {
-    setThemeSetting("dark");
+    // Switch to opposite of system preference
+    let systemTheme = getSystemTheme();
+    let oppositeTheme = systemTheme == "dark" ? "light" : "dark";
+    setThemeSetting(oppositeTheme);
   } else {
+    // Switch back to system
     setThemeSetting("system");
   }
+};
+
+// Get the current system theme preference.
+let getSystemTheme = () => {
+  const userPref = window.matchMedia;
+  if (userPref && userPref("(prefers-color-scheme: dark)").matches) {
+    return "dark";
+  }
+  return "light";
 };
 
 // Change the theme setting and apply the theme.
@@ -205,11 +216,11 @@ let transTheme = () => {
   }, 500);
 };
 
-// Determine the expected state of the theme toggle, which can be "dark", "light", or
-// "system". Default is "system".
+// Determine the expected state of the theme toggle, which can be "system", "dark", or "light".
+// Default is "system".
 let determineThemeSetting = () => {
   let themeSetting = localStorage.getItem("theme");
-  if (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") {
+  if (themeSetting != "system" && themeSetting != "dark" && themeSetting != "light") {
     themeSetting = "system";
   }
   return themeSetting;
@@ -220,12 +231,7 @@ let determineThemeSetting = () => {
 let determineComputedTheme = () => {
   let themeSetting = determineThemeSetting();
   if (themeSetting == "system") {
-    const userPref = window.matchMedia;
-    if (userPref && userPref("(prefers-color-scheme: dark)").matches) {
-      return "dark";
-    } else {
-      return "light";
-    }
+    return getSystemTheme();
   } else {
     return themeSetting;
   }
