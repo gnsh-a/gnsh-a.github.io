@@ -13,8 +13,14 @@ nav_order: 3
 
 {% include bib_search.liquid %}
 
-<div class="publications">
+<div class="publications-sections">
+  <h2 class="category">Journal Papers</h2>
+  <div class="publications">
+    {% bibliography --group_by none --query @*[pubtype=journal]* %}
+  </div>
 
-{% bibliography %}
-
+  <h2 class="category">Conferences</h2>
+  <div class="publications">
+    {% bibliography --group_by none --query @*[pubtype=conference]* %}
+  </div>
 </div>

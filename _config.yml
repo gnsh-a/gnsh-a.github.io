@@ -323,6 +323,7 @@ enable_publication_badges:
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
   [
+    pubtype,
     abbr,
     abstract,
     additional_info,
@@ -647,16 +648,16 @@ jekyll_get_json:
   - data: resume
     json: assets/json/resume.json # it can also be an url
 
-# jsonresume:
-#   - basics
-#   - work
-#   - education
-#   - publications
-#   - projects
-#   - volunteer
-#   - awards
-#   - certificates
-#   - skills
-#   - languages
-#   - interests
-#   - references
+jsonresume:
+  - basics
+  - work
+  - education
+  - publications
+  - projects
+  - volunteer
+  - awards
+  - certificates
+  - skills
+  - languages
+  - interests
+  - references
