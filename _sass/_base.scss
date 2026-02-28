@@ -883,6 +883,13 @@ footer.sticky-bottom {
       }
 
       .author {
+        sup {
+          font-size: 0.75em;
+          line-height: 0;
+          vertical-align: super;
+          margin-left: 0.05em;
+        }
+
         a {
           border-bottom: 1px dashed var(--global-theme-color);
 
@@ -892,9 +899,9 @@ footer.sticky-bottom {
           }
         }
 
-        > em {
+        > strong {
           border-bottom: 1px solid;
-          font-style: normal;
+          font-weight: 600;
         }
 
         > span.more-authors {

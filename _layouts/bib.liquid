@@ -53,7 +53,9 @@
       {% assign author_array_size = entry.author_array | size %}
 
       {% assign author_array_limit = author_array_size %}
-      {% if site.max_author_limit and author_array_size > site.max_author_limit %}
+      {% if entry.max_author_limit %}
+        {% assign author_array_limit = entry.max_author_limit %}
+      {% elsif site.max_author_limit and author_array_size > site.max_author_limit %}
         {% assign author_array_limit = site.max_author_limit %}
       {% endif %}
 
@@ -82,10 +84,10 @@
           {%- if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif -%}
         {% endif %}
         {%- if author_is_self -%}
-          <em>
+          <strong>
             {{- author.first }}
             {{ author_last_html -}}
-          </em>
+          </strong>
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
