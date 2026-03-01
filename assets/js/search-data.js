@@ -78,6 +78,11 @@ ninja.data = [{
           description: "Finite-element simulation of a clamped cantilever beam with BDF-1 integrator.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/12_project/";
+            },},{id: "projects-comparative-study-of-gpu-programming-languages",
+          title: 'Comparative Study of GPU Programming Languages',
+          description: "Comparison of GPU languages across common kernels and their performance.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/13_project/";
             },},{id: "projects-lunar-rover-vehicle-simulation-infrastructure",
           title: 'Lunar Rover Vehicle Simulation Infrastructure',
           description: "GPU-accelerated framework for lunar vehicle simulation",
