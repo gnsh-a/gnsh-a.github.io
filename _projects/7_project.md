@@ -27,7 +27,7 @@ In collaboration with **Komatsu**, this project focuses on the high-fidelity sim
     {% include figure.liquid path="assets/img/kom_1.jpeg" title="Image of a Loader" class="img-fluid rounded z-depth-1" width="880" height="530" %}
   </div>
   <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/gif/bucket1.gif" title="DEM Soil Response During Digging" class="img-fluid rounded z-depth-1" width="880" height="530" %}
+    {% include figure.liquid path="assets/img/bucket1.gif" title="DEM Soil Response During Digging" class="img-fluid rounded z-depth-1" width="880" height="530" %}
   </div>
 </div>
 
