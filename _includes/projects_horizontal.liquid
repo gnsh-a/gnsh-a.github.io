@@ -1,34 +1,41 @@
-<div class="col-12">
-  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
-    <div class="project-row{% unless project.img %} project-row--no-media{% endunless %}">
-      <div class="project-body">
-        {% if project.img %}
-          <div class="project-media">
-            {% include figure.liquid loading="eager" path=project.img sizes="(min-width: 768px) 160px, 90vw" alt="project thumbnail" class="project-thumb" %}
-          </div>
-        {% endif %}
-        <div class="project-content">
-          <h3 class="project-title">
-            {{ project.title }}
-          </h3>
-          <p class="project-description">{{ project.description }}</p>
-        </div>
-      </div>
-      {% if project.github or project.github_stars %}
-        <div class="project-meta">
-          {% if project.github %}
-            <a class="project-meta-link" href="{{ project.github }}" data-toggle="tooltip" title="Code Repository" aria-label="Code Repository">
-              <i class="fa-brands fa-github"></i>
-            </a>
-          {% endif %}
-          {% if project.github_stars %}
-            <span class="project-stars" data-toggle="tooltip" title="GitHub Stars">
-              <i class="fa-solid fa-star"></i>
-              <span id="{{ project.github_stars }}-stars"></span>
-            </span>
-          {% endif %}
+{% assign project_href = project.url | relative_url %}
+{% if project.redirect %}
+  {% assign project_href = project.redirect %}
+{% endif %}
+
+<li class="projects-list-item">
+  <div class="row project-entry-row">
+    <div class="col-sm-2 project-preview">
+      {% if project.img %}
+        {% include figure.liquid loading="eager" path=project.img sizes="(min-width: 768px) 170px, 90vw" alt="project thumbnail" class="project-thumb" %}
+      {% else %}
+        <div class="project-thumb-placeholder" aria-hidden="true">
+          <i class="fa-regular fa-image"></i>
         </div>
       {% endif %}
     </div>
-  </a>
-</div>
+    <div class="col-sm-10 project-content">
+      <div class="title-row">
+        <div class="title">
+          <a class="project-title-link" href="{{ project_href }}">{{ project.title }}</a>
+        </div>
+        {% if project.year %}
+          <div class="pub-year">{{ project.year }}</div>
+        {% endif %}
+      </div>
+      <p class="project-description">{{ project.description }}</p>
+      <div class="links project-links">
+        <a href="{{ project_href }}" class="btn btn-sm z-depth-0" role="button">Details</a>
+        {% if project.github %}
+          <a href="{{ project.github }}" class="btn btn-sm z-depth-0" role="button">GitHub</a>
+        {% endif %}
+        {% if project.github_stars %}
+          <span class="project-stars" data-toggle="tooltip" title="GitHub Stars">
+            <i class="fa-solid fa-star"></i>
+            <span id="{{ project.github_stars }}-stars"></span>
+          </span>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</li>

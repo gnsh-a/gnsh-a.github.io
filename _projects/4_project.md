@@ -4,6 +4,7 @@ title: SAE BAJA Team
 description: Chassis Design, Powertrain, and Data Acquisition – BAJA SAE India & Enduro Student India
 img: assets/img/psi_3.jpg
 importance: 3
+year: 2021
 category: hardware
 related_publications: false
 ---

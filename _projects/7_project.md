@@ -4,6 +4,7 @@ title: Loader Simulation with DEM
 description: Modeling wheel loader-soil interaction using Chrono::Engine and DEM
 img: assets/img/kom_1.jpeg
 importance: 3
+year: 2025
 category: software
 related_publications: false
 ---

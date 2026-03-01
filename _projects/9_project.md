@@ -4,6 +4,7 @@ title: GPU-Based Linear Solvers for Multibody Dynamics
 description: High-performance computing acceleration for large-scale mechanical systems
 img: assets/img/publication_preview/tire.png
 importance: 1
+year: 2025
 category: software
 related_publications: false
 ---

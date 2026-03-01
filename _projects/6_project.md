@@ -4,8 +4,10 @@ title: GPU-Accelerated Path Planning for Autonomous Robots
 description: Accelerated path planning using Rapidly-exploring Random Trees (RRT) with OpenMP/CUDA
 img: assets/img/rrt_1.png
 importance: 2
+year: 2025
 category: software
 related_publications: false
+github: https://github.com/xuann6/ece759_final_proj
 ---
 
 As part of **ECE 759: High Performance Computing (Spring 2025)** at UW–Madison, I contributed to a project that significantly accelerated path planning algorithms using **parallel computing** on both CPU and GPU. We focused on **Standard RRT** and **Bidirectional RRT**, achieving up to **151× speedup** using CUDA on NVIDIA GPUs.

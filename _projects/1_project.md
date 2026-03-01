@@ -4,6 +4,7 @@ title: Lunar Rover Vehicle Simulation Infrastructure
 description: GPU-accelerated framework for lunar vehicle simulation
 img: assets/img/int_2.png
 importance: 3
+year: 2025
 category: software
 related_publications: false
 ---

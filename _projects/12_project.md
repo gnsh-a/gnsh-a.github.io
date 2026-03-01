@@ -4,6 +4,7 @@ title: Flexible Multibody Dynamics Simulator
 description: Finite-element simulation of a clamped cantilever beam with BDF-1 integrator.
 img: assets/img/751_deformable.jpg
 importance: 0
+year: 2025
 category: software
 related_publications: false
 ---

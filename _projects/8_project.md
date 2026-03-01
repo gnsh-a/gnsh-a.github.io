@@ -4,6 +4,7 @@ title: Robotic Manipulator Simulation
 description: Modeling and control of a serial robotic arm
 img: assets/img/441_1.png
 importance: 2
+year: 2025
 category: software
 related_publications: false
 ---

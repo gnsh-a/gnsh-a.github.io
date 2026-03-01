@@ -8,8 +8,12 @@
 }
 
 .projects .tab {
-  justify-content: flex-end;
-  margin-left: 0;
+  justify-content: flex-start;
+  margin-left: -24px;
+}
+
+.projects .tab > * {
+  padding-left: 24px;
 }
 
 .tab > * {
@@ -55,4 +59,5 @@
 .projects .tab > * > a {
   text-transform: lowercase;
   font-size: 16px;
+  color: color-mix(in srgb, var(--global-text-color) 70%, var(--global-text-color-light));
 }
