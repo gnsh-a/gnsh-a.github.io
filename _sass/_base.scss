@@ -716,21 +716,22 @@ footer.sticky-bottom {
   }
 
   .project-title {
-    font-size: 1.05rem;
+    font-size: 1.1rem;
     margin-bottom: 0.35rem;
   }
 
   .project-description {
     margin-bottom: 0.25rem;
     color: var(--global-text-color-light);
-    font-size: 0.9rem;
+    color: color-mix(in srgb, var(--global-text-color) 35%, var(--global-text-color-light));
+    font-size: 1rem;
   }
 
   .project-meta {
     display: flex;
     align-items: center;
     gap: 0.75rem;
-    font-size: 0.95rem;
+    font-size: 0.875rem;
   }
 
   .project-meta-link {
@@ -743,7 +744,7 @@ footer.sticky-bottom {
 
   .project-stars {
     color: var(--global-text-color-light);
-    font-size: 0.95rem;
+    font-size: 0.875rem;
   }
 
   @media (max-width: 768px) {
@@ -868,8 +869,25 @@ footer.sticky-bottom {
         }
       }
 
+      .title-row {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 0.75rem;
+      }
+
       .title {
         font-weight: bolder;
+        font-size: 1.1rem;
+        flex: 1 1 auto;
+        min-width: 0;
+      }
+
+      .pub-year {
+        color: var(--global-text-color);
+        font-weight: 400;
+        white-space: nowrap;
+        flex: 0 0 auto;
       }
 
       .author {
@@ -890,6 +908,7 @@ footer.sticky-bottom {
         }
 
         > em {
+          color: color-mix(in srgb, var(--global-theme-color) 88%, white);
           border-bottom: 1px solid;
           font-style: normal;
         }
@@ -904,6 +923,15 @@ footer.sticky-bottom {
             border-bottom: 1px dashed var(--global-text-color);
           }
         }
+      }
+
+      .periodical {
+        font-size: inherit;
+      }
+
+      .periodical + .periodical {
+        margin-top: 0.2rem;
+        font-style: italic;
       }
 
       .links {
