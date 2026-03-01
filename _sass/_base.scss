@@ -797,13 +797,17 @@ footer.sticky-bottom {
     border-bottom: 2px solid var(--global-theme-color);
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    margin-top: 1.25rem;
+    margin-top: 1rem;
     margin-bottom: 1.5rem;
     text-align: right;
   }
 
   h2.category:first-child {
-    margin-top: 1.25rem;
+    margin-top: 1rem;
+  }
+
+  > .publications + h2.category {
+    margin-top: 1rem;
   }
 }
 
@@ -878,7 +882,7 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
-        font-size: 1.1rem;
+        font-size: 1rem;
         flex: 1 1 auto;
         min-width: 0;
       }
@@ -931,6 +935,7 @@ footer.sticky-bottom {
 
       .periodical + .periodical {
         margin-top: 0.2rem;
+        font-size: 0.95rem;
         font-style: italic;
       }
 
