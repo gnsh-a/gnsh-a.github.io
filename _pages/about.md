@@ -27,7 +27,7 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a graduate student in Mechanical Engineering at the University of Wisconsin-Madison, working in the [Simulation-Based Engineering Laboratory (SBEL)](https://sbel.wisc.edu/). I am advised by [Dan Negrut](https://sbel.wisc.edu/about/people/negrut-dan//) and my research interests are in the area of simulation in robotics.
+I am a graduate student in Mechanical Engineering at the University of Wisconsin-Madison, working in the [Simulation-Based Engineering Laboratory (SBEL)](https://sbel.wisc.edu/). I am advised by [Dan Negrut](https://sbel.wisc.edu/about/people/negrut-dan//). My research interests are in robotics simulation, particularly at the intersection of physics-based simulation and high-performance computing.
 
 You can view my [resume](/assets/pdf/Resume.pdf) and visit my [GitHub profile](https://github.com/gnsh-a).
 
