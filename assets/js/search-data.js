@@ -57,11 +57,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-joined-university-of-wisconsin-madison-as-a-graduate-student",
-          title: 'Joined University of Wisconsin-Madison as a graduate student.',
-          description: "",
-          section: "News",},{id: "news-joined-the-simulation-based-engineering-lab-at-uw-madison",
-          title: 'Joined the Simulation-Based Engineering Lab at UW-Madison.',
+            },},{id: "news-excited-to-join-tri-s-robotics-group-as-a-summer-intern",
+          title: 'Excited to join TRI’s Robotics group as a summer intern.',
           description: "",
           section: "News",},{id: "projects-data-driven-bulldozer-blade-control-for-autonomous-terrain-leveling",
           title: 'Data-Driven Bulldozer Blade Control for Autonomous Terrain Leveling',
