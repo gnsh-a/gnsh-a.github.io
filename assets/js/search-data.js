@@ -57,8 +57,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-excited-to-join-tri-s-robotics-group-as-a-summer-intern",
-          title: 'Excited to join TRI’s Robotics group as a summer intern.',
+            },},{id: "news-excited-to-join-tri-s-robotics-group-for-the-summer-as-an-intern",
+          title: 'Excited to join TRI’s Robotics group for the summer as an intern.',
           description: "",
           section: "News",},{id: "projects-data-driven-bulldozer-blade-control-for-autonomous-terrain-leveling",
           title: 'Data-Driven Bulldozer Blade Control for Autonomous Terrain Leveling',
