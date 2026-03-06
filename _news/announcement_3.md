@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Excited to join TRI's Robotics group as a summer intern.
+Excited to join TRI's Robotics group for the summer as an intern.
