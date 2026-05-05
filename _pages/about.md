@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: prof_pic_bg.png
+  image: gnsh.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>4150, ME Building</p>
