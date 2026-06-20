@@ -80,6 +80,11 @@ ninja.data = [{
           description: "Comparison of GPU languages across common kernels and their performance.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/13_project/";
+            },},{id: "projects-cliff-detection-from-rgb-images",
+          title: 'Cliff Detection from RGB Images',
+          description: "Monocular depth-based cliff detection pipeline for autonomous robots using Depth Anything V3.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/14_project/";
             },},{id: "projects-lunar-rover-vehicle-simulation-infrastructure",
           title: 'Lunar Rover Vehicle Simulation Infrastructure',
           description: "GPU-accelerated framework for lunar vehicle simulation",
