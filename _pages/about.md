@@ -27,7 +27,7 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a graduate student in Mechanical Engineering at UW-Madison and a member of the [Simulation-Based Engineering Laboratory (SBEL)](https://sbel.wisc.edu/), where I am advised by [Dan Negrut](https://sbel.wisc.edu/about/people/negrut-dan/). My research interests lie in developing physics-based and learning-based simulators for robotics, leveraging GPU-accelerated high-performance computing, with a particular focus on contact modeling for manipulation.
+I am a graduate student in Mechanical Engineering at UW-Madison and a member of the [Simulation-Based Engineering Laboratory (SBEL)](https://sbel.wisc.edu/), where I am advised by [Dan Negrut](https://sbel.wisc.edu/about/people/negrut-dan/). My research interests lie in developing physics-based and learning-based simulators for robotics. My current focus is on contact modeling for manipulation of deformable objects.
 
 You can find my CV [here](../assets/pdf/cv.pdf), and you can also visit my [GitHub profile](https://github.com/gnsh-a).
 
